@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bma.studycollabs.Profilescreen">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/banner">
+
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/pro_img_user"
+                    android:background="@drawable/roundimg"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_ch_pw"
+                    android:text="Change password"
+                    android:background="@drawable/boxbtnblue"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ed_pro_fname"
+                    android:background="@drawable/box"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:hint="Update first name"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ed_pro_mname"
+                    android:background="@drawable/box"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:layout_marginTop="10dp"
+                    android:hint="Update middle name"
+                    android:layout_below="@+id/ed_pro_fname"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ed_pro_lname"
+                    android:background="@drawable/box"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:hint="Update last name"
+                    android:layout_below="@+id/ed_pro_mname"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ed_pro_telephone"
+                    android:background="@drawable/box"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Update telephone"
+                    android:singleLine="true"
+                    android:layout_below="@+id/ed_pro_lname"/>
+
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/ed_pro_mobile"-->
+                    <!--android:background="@drawable/box"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:hint="Update mobile"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:layout_below="@+id/ed_pro_telephone"/>-->
+
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/ed_pro_sname"-->
+                    <!--android:background="@drawable/box"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:hint="Update screen name"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:layout_below="@+id/ed_pro_mobile"/>-->
+
+                <Spinner
+                    android:id="@+id/spi_tutype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/box"/>
+
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/ed_pro_ttype"-->
+                    <!--android:background="@drawable/box"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:hint="Update Tutor type"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:layout_below="@+id/ed_pro_sname"/>-->
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_update_profile"
+                    android:text="Update Profile"
+                    android:layout_margin="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/boxbtnblue"
+                    android:textColor="#000000"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

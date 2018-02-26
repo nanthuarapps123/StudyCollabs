@@ -1,0 +1,78 @@
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="7dp"
+    android:elevation="5dp"
+    card_view:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_container_noti_tutor"
+        android:layout_margin="8dp">
+
+
+
+        <TextView
+            android:layout_marginTop="03dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textColor="#000000"
+            />
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/date"
+            android:padding="3dp"
+            />
+
+
+        <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cat"
+        android:layout_below="@+id/title"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="#ff11"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img"
+            android:layout_below="@+id/title"
+            android:layout_toRightOf="@+id/cat"
+            android:layout_margin="5dp"
+            android:background="@drawable/rightarrow"
+
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:layout_below="@+id/title"
+            android:id="@+id/scat"
+            android:background="#4ad4c2"
+            android:padding="5dp"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "579280972418",
+    "firebase_url": "https://studycollab-77966.firebaseio.com",
+    "project_id": "studycollab-77966",
+    "storage_bucket": "studycollab-77966.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579280972418:android:f216df5ecd4c1388",
+        "android_client_info": {
+          "package_name": "com.bma.studycollabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579280972418-ub5jiua554nqh7vc9pmuh7j7deriaguu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd8a9jaWpU1z0iLWeRscNinW0XVqGW43s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

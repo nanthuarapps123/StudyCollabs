@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bma.studycollabs.Forgetpwdscreen">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/banner">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_reset_password"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Forget Password"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fpwd_input_layout_username"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/box"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/fpwd_input_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:background="#00000000"
+            android:layout_gravity="center"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@android:color/black"
+            android:hint="Username" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fpwd_input_layout_email"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/box"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/fpwd_input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:background="#00000000"
+            android:layout_gravity="center"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@android:color/black"
+            android:hint="Email" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_rset_password"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/boxbtnblue"
+        android:text="Done"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

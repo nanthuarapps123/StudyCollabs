@@ -1,0 +1,142 @@
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="7dp"
+    android:elevation="5dp"
+    card_view:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_sche_container"
+        android:layout_margin="8dp">
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+
+            />
+
+        <TextView
+            android:layout_marginTop="03dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_below="@+id/title"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="10dp"
+           android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textColor="#760e0e"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/name"
+            android:textColor="#55643f"
+            />
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stime"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/name"
+            android:textColor="#17866e"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hyen"
+            android:text="  _ "
+            android:layout_toRightOf="@+id/stime"
+            android:layout_below="@+id/name"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etime"
+            android:layout_toRightOf="@+id/hyen"
+            android:layout_below="@+id/name"
+            android:textColor="#17866e"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/atype"
+            android:layout_below="@+id/date"
+            android:textColor="#efb9b904"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:textColor="#ef532096"
+            android:layout_below="@+id/date"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_accept"
+            android:layout_alignParentLeft="true"
+            android:text="Accept"
+            android:layout_below="@+id/location"
+            android:background="@drawable/boxbtnblue"
+            android:padding="7dp"
+            android:layout_margin="8dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_reject"
+            android:layout_alignParentRight="true"
+            android:text="Reject"
+            android:layout_below="@+id/location"
+            android:background="@drawable/boxbtnblue"
+            android:padding="7dp"
+            android:layout_margin="8dp"
+            android:visibility="gone"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
